@@ -1,0 +1,19 @@
+
+SETUP
+1. Copy CommTest and MuruguDBUI folder to your 'C:\' directory
+
+2. Follow the instructions in the INSTALL file located in the RxTx folder
+
+3. Copy the Batch files, CommTestBAT and SMSResponderBAT to the desktop or wherever you want to run them from 
+
+4. Use the sql file to create required database and table
+
+5. User is root and password is r00t
+
+
+RUN
+1. Run CommTest by double clicking on CommTestBAT to find the modem port
+
+2. Set the port number in the config.properties file in MuruguDBUI folder(look for it somewhere in there) 
+
+3. Run SMSResponderBAT and Start the sms responder service
